@@ -19,14 +19,14 @@ public class Main {
 					yShopManager.save(customer1);
 				} else {
 					System.out.println("Unsucsess Verification ");
-				}
+				} 
 			} else if (shop == 2) {
 				XShopManager xShopManager = new XShopManager();
 				xShopManager.save(customer1);
 			}
 
 			else {
-				System.out.println("Hatalý giriþ");
+				System.out.println("Undefined input");
 			} 
 		} while (shop == 1 || shop == 2);
 	}
